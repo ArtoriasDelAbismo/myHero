@@ -26,8 +26,106 @@ header {
 }
 
 #logo img {
-    border-radius: 100%;
+    border-radius: 100%; /*transforma mi imagen cuadrada en un circulo*/
     border: 2px solid #fff;
 }
+
+#hero {
+    position: relative;
+}
+
+#hero #laptop {
+    width: 100%;
+}
+
+#hero .info-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
+    display: flex;
+}
+
+#hero .info-container #my-picture {
+    width: 200px;
+}
+
+#hero .info-container #my-picture img {
+    border-radius: 100%;
+}
+
+#hero .info {
+    display: grid;
+    align-content: center;
+    margin-left: 20px;
+    font-weight: bold;
+    
+}
+
+#hero .info-container .info span {
+    display: inline-block;
+    color: #b5b5b5;
+    margin-bottom: 70px;
+}
+
+#hero .info h1 {
+    font-size: xx-large;
+}
+
+main {
+    padding: 50px;
+}
+
+main p {
+    text-align: center;
+}
+
+main .social-logos {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    list-style: none;
+}
+
+main .social-logos .social-icon {
+    width: 100%;
+    height: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+main .social-logos li {
+    margin-right: 18px;
+}
+
+main .social-logos #github {
+    background: #23272d;
+}
+
+main .social-logos #linkedin {
+    background: #0077b0;
+}
+
+main .social-logos #platzi {
+    background: #121f3d;
+}
+
+main .social-logos #youtube {
+    background:  #f70000;
+}
+
+main .social-logos #twitter {
+    background: #1da1f2;
+}
+
+
+
 
 
