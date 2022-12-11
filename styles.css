@@ -77,10 +77,13 @@ header {
 
 main {
     padding: 50px;
+    background-color: #1f1f1f;
 }
 
 main p {
     text-align: center;
+    color: #b5b5b5;
+    font-weight: bold;
 }
 
 main .social-logos {
@@ -102,7 +105,7 @@ main .social-logos .social-icon {
 }
 
 main .social-logos li {
-    margin-right: 18px;
+    margin-right: 24px;
 }
 
 main .social-logos #github {
